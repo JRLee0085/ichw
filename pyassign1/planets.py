@@ -24,7 +24,7 @@ def drawfn(tl,tl1,tl2,tl3,tl4,tl5,n,a1,b1,a2,b2,a3,b3,a4,b4,a5,b5,a6,b6):
         n=n+0.01
         x=math.sin(6*n)                                   # 过程中n前面所乘的数字是相对的角速度
         y=-math.cos(6*n)                                  # 为了简便，这里不妨设置角速度比例为6:5:4:3:2:1
-        scaledX, scaledY = x * 50, y * 50                 # 所以与实际有所差异
+        scaledX, scaledY = x * 50, y * 50                 # 所*的50是为了放大比例，所以与实际有所差异
         x1=math.sin(5*n)
         y1=-math.cos(5*n)
         scaledX1, scaledY1 = x1 * 50, y1 * 50
@@ -69,16 +69,3 @@ def main():
     #这里为了简便，所赋的各个椭圆a,b与实际偏差较大
 if __name__ == "__main__":
     main()
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
