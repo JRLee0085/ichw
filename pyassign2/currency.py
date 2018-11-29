@@ -149,8 +149,11 @@ def testAll():
 def main():
     testAll()
     currency_from=input("Please input the currency you have:")
+    # 输入的货币名称应为缩写(三个大写字母的形式)
     currency_to=input("Please input the currency you want to exchange for:")
+    # 输入的货币名称应为缩写(三个大写字母的形式)
     amount_from=input("Please input the amount of currency you have:")
+    # 输入的应为不含文字的数
     c=exchange(currency_from, currency_to, amount_from)
     if c=="The name of the currency you have is invalid.":
         print("The name of the currency you have is invalid.")
