@@ -118,7 +118,7 @@ def main():
         print("available solution types:",len(listresult))
         print(listresult)
         thenumber=input("the number of the solution you wish to see:")
-
+#输入一个数，代表要可视化的是所有解决方案中的哪一种
 #下面做可视化：
     import turtle
     wn = turtle.Screen()
